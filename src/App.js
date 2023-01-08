@@ -1,10 +1,13 @@
 import React from "react";
-import Counter from "./components/Counter/Counter";
+import Navbar from "./components/Navbar/Navbar";
+import PostList from "./components/PostList/PostList";
+// import Counter from "./components/Counter/Counter";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <Navbar />
+      <PostList />
     </div>
   );
 };
